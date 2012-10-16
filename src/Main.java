@@ -3,9 +3,11 @@ public class Main {
 	
 	public static void main(String [] args)
 	{
-		System.out.println("go");
+		int x = 0;
 		
-		System.out.println("fast");
+		System.out.println(++x);
+		
+		System.out.println(x);
 	}
 
 }
